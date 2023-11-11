@@ -16,7 +16,7 @@ orjson==3.5.4;python_version<"3.7"
 orjson==3.6.3;python_version>="3.7"
 pandas
 preconditions
-pyarrow<3;python_version<"3.7"
+pyarrow<14.0.1;python_version<"3.7"
 pyarrow;python_version>="3.7"
 pylint==2.10.2
 pytest-mock==3.2.0
