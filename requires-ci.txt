@@ -25,3 +25,7 @@ xlrd>=2.0.1;python_version>="3.8"
 xlrd<2;python_version<"3.8"
 pytest-rerunfailures
 jupyterlab<4.0.0
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
