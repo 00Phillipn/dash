@@ -1,6 +1,6 @@
 # Dependencies used by CI on github.com/plotly/dash
-black==22.3.0;python_version>="3.7"
-black==21.6b0;python_version<"3.7"
+black==24.3.0;python_version>="3.7"
+black==24.3.0;python_version<"3.7"
 dash-flow-example==0.0.5
 dash-dangerously-set-inner-html
 flake8==3.9.2
@@ -10,8 +10,8 @@ isort==4.3.21;python_version<"3.7"
 mimesis
 mock==4.0.3
 numpy<=1.25.2
-orjson==3.5.4;python_version<"3.7"
-orjson==3.6.7;python_version>="3.7"
+orjson==3.9.15;python_version<"3.7"
+orjson==3.9.15;python_version>="3.7"
 openpyxl;python_version>="3.8"
 pandas>=1.4.0;python_version>="3.8"
 pandas==1.1.5;python_version<"3.8"
@@ -25,3 +25,7 @@ xlrd>=2.0.1;python_version>="3.8"
 xlrd<2;python_version<"3.8"
 pytest-rerunfailures
 jupyterlab<4.0.0
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
